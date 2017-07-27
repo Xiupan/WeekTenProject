@@ -1,24 +1,14 @@
-# README
+# Recipe Box
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Build an application to store recipes. This application should have at least three models: Recipe, Ingredient, and RecipeStep. (You can name these something else.)
 
-Things you may want to cover:
+Your application will not have authentication. All users should be able to create new recipes, add ingredients and steps to them, and edit recipes, ingredients, and steps.
 
-* Ruby version
+Add-on features  
 
-* System dependencies
+Once you have the basic application running, choose features from the following list to add on to the application:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Users can reorder steps.
+Recipes can have a URL for their source.
+Users can upload pictures to a recipe.
+Users can search for recipes with specific ingredients
