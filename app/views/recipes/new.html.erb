@@ -1,0 +1,12 @@
+<h1>New Recipe</h1>
+
+<%= form_for :recipe, url: recipes_path do |r| %>
+  <p>
+    <%= r.label :name %><br>
+    <%= r.text_field :name %>
+  </p>
+
+  <p>
+    <%= r.submit %>
+  </p>
+<% end %>
