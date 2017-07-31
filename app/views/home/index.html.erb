@@ -5,7 +5,9 @@
 
 <% @recipes.each do |recipe| %>
   <tr>
-    <td><%= recipe.name %></td>
+    <td><%= recipe.name %> <%= link_to 'Edit this Recipe', edit_recipe_path(recipe) %> | <%= link_to 'Delete this Recipe', recipe_path(recipe),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
