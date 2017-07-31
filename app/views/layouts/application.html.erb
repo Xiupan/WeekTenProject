@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>WeekTenProject</title>
+    <title>Recipe Box</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
+  <header>
+    <h1>Recipe Box</h1>
+    <nav>
+      <h3><%= link_to 'Home', root_path %></h3>
+    </nav>
+  </header>
   <body>
     <%= yield %>
   </body>
